@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease;
+}
+
+#app-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+}
+
+#clock-date {
+    margin-bottom: 20px;
+}
+
+#time {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#date {
+    font-size: 1.2em;
+}
+
+#weather-widget {
+    margin-bottom: 20px;
+}
+
+#weather-info {
+    margin-top: 10px;
+}
+
+#temperature {
+    font-size: 2em;
+}
+
+#weather-condition {
+    font-size: 1.2em;
+}
+
+#image-slider img {
+    width: 70%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#task-list {
+    margin-top: 20px;
+}
+
+#task-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#task-list li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+/* /* new task list
+
+
+#task-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.task-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.task-input input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.task-input button {
+    width: 25%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-input button:hover {
+    background-color: #218838;
+}
+
+#tasks {
+    list-style: none;
+    padding: 0;
+}
+
+#tasks li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#tasks li.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+#tasks li button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#tasks li button:hover {
+    background-color: darkred;
+}
+
+#delete-completed {
+    width: 100%;
+    padding: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+} */
+
+#delete-completed:hover {
+    background-color: #c82333;
+} 
+
+
+#tasks {
+    list-style: none;
+    margin-top: 10px;
+}
+
+#tasks li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+
+#tasks li.completed {
+    text-decoration: line-through;
+    background: #d3d3d3;
+}
+
+#tasks li button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
